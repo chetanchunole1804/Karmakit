@@ -1,0 +1,23 @@
+{
+  "name": "karmakit",
+  "private": true,
+  "description": "Customizable and minimal React UI components built with TypeScript.",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "keywords": [
+  "react",
+  "ui",
+  "component-library",
+  "karmakit",
+  "typescript",
+  "tailwind",
+  "frontend",
+  "design-system",
+  "react-components",
+  "npm-package"
+]
+}
+
