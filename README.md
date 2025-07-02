@@ -25,23 +25,26 @@
 
 ---
 
-## 📁 Monorepo Structure
+## 📦 Monorepo Structure
 
+```
 karmakit/
 ├── apps/
-│ └── docs/ # Demo app built with Next.js (for component preview)
+│   └── docs/               # Demo app built with Next.js (for component previews)
 ├── packages/
-│ └── karmakit/ # Actual UI library package
-│ ├── src/
-│ │ ├── components/
-│ │ ├── hooks/
-│ │ ├── utils/
-│ │ ├── themes/
-│ │ └── index.ts
-├── .gitignore
-├── package.json
-├── tsconfig.base.json
-└── turbo.json
+│   └── karmakit/           # Core UI component library
+│       ├── src/
+│       │   ├── components/ # Reusable UI components
+│       │   ├── hooks/      # Custom React hooks
+│       │   ├── utils/      # Helper utility functions
+│       │   ├── themes/     # Theming and styling
+│       │   └── index.ts    # Package entry point
+├── .gitignore              # Git ignored files
+├── package.json            # Root dependencies and scripts
+├── tsconfig.base.json      # Shared TypeScript config
+└── turbo.json              # Turborepo configuration
+```
+
 
 ---
 
