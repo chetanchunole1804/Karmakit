@@ -8,16 +8,40 @@
     "packages/*"
   ],
   "keywords": [
-  "react",
-  "ui",
-  "component-library",
-  "karmakit",
-  "typescript",
-  "tailwind",
-  "frontend",
-  "design-system",
-  "react-components",
-  "npm-package"
-]
+    "react",
+    "ui",
+    "component-library",
+    "karmakit",
+    "typescript",
+    "tailwind",
+    "frontend",
+    "design-system",
+    "react-components",
+    "npm-package"
+  ],
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.1",
+    "@storybook/addon-a11y": "9.1.10",
+    "@storybook/addon-docs": "^9.1.10",
+    "@storybook/addon-vitest": "9.1.10",
+    "@storybook/addons": "^7.6.17",
+    "@storybook/nextjs-vite": "^9.1.10",
+    "@storybook/react": "^9.1.10",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "playwright": "^1.56.0",
+    "storybook": "^9.1.10",
+    "vite": "^7.1.9",
+    "vitest": "^3.2.4"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@types/react": "^19.2.2",
+    "next": "^15.5.4",
+    "prop-types": "^15.8.1",
+    "react": "^19.2.0"
+  }
 }
-
